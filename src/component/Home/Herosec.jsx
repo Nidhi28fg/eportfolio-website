@@ -5,19 +5,19 @@ import Button from "./Button";
 const Herosec = () => {
   return (
     <div
-      className="h-[650px] bg-cover bg-center bg-no-repeat"
+      className="h-[650px] bg-cover bg-center bg-no-repeat object-fill"
       style={{
         backgroundImage: `url(${hero})`,
       }}
     >
       <div className="flex flex-col justify-center h-[650px] bg-cover bg-center bg-no-repeat mx-9">
         <div>
-          <h1 className="md:text-5xl text-4xl font-bold text-white">
+          <h1 className="md:text-5xl text-3xl font-[900] text-white">
             Transforming Placements.
             <br />
             <span className="text-[#ff7e56]">Empowering Futures</span>
           </h1>
-          <p className="text-white mt-4 w-[400px] md:w-[700px] text-xl">India's most ambitious HR partner for colleges & companies offering guaranteed placements, real-time hiring solutions, and deep industry collaborations</p>
+          <p className="text-white mt-4 w-auto md:w-[700px] md:text-xl text-ls">India's most ambitious HR partner for colleges & companies offering guaranteed placements, real-time hiring solutions, and deep industry collaborations</p>
         </div>
         <div className="flex flex-col md:flex-row items-center mt-8 gap-10">
         {/* Button section */} 
