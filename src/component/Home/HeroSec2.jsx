@@ -42,13 +42,13 @@ const HeroSec2 = () => {
           /></div>
 
           <div
-           className="-mt-8 px-4  bg-[rgba(255,255,255,0.59)] z-20"
+           className="-mt-8 px-4  bg-[rgba(255,255,255,0.72)] bg-gradient-to-t z-20"
           >
-            <h1 className="text-2xl font-bold px-4 text-[#f15322] bg-#e9e2e0 border-none
+            <h1 className="text-2xl md:text-3xl shadow-2xl font-bold px-4 text-[#f2420d] bg-#e9e2e0 border-none
             ">
               {item.h1}
             </h1>
-            <p className="mt-2 px-4 w-80 md:w-auto text-justify">{item.p}</p>
+            <p className="mt-2 px-4 w-80 md:w-auto font-semibold text-lg text-justify">{item.p}</p>
           </div>
         </div>
       ))}
