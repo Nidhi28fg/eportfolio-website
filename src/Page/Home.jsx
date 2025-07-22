@@ -11,7 +11,7 @@ import Bottom from "../component/Home/Bottom";
 
 const Home = () => {
   return (
-    <div className="max-w-[1280px] lg:max-w-full mx-auto">
+    <div className="max-w-[1280px] lg:max-w-full mx-auto ">
       <Layout />
       <Herosec />
       <HeroSec2/>

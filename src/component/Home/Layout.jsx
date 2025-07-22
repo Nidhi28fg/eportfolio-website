@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="flex justify-between items-center my-4">
+    <div className="flex justify-between items-center my-4 ">
       <div>
         <img src={logo} alt="logo" className="w-60 h-20 object-cover" />
       </div>
