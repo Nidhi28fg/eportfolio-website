@@ -9,7 +9,7 @@ const ReachOut = () => {
       <div>
         <div className="flex items-center md:gap-5 ">
           <div className="w-15 border-b-2 border-b-amber-600"></div>
-          <div>
+          <div className="text-xl">
             <p>DSVDFYESUFEWIHGIO</p>
           </div>
         </div>

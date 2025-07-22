@@ -14,7 +14,7 @@ const HeroSer = () => {
       <div className="md:w-[40%] p-5">
         <div className="flex items-center md:gap-5 md:pt-30">
           <div className="w-15 border-b-2 border-b-amber-600"></div>
-          <div>
+          <div className="text-xl">
             <p>Our 5-Step Process to Empower Careers</p>
           </div>
         </div>
