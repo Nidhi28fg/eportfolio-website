@@ -8,6 +8,7 @@ import Map from '../component/Our Service/Map'
 import Purpose from '../component/Our Service/Purpose'
 import ReachOut from '../component/Our Service/ReachOut'
 import Swipe from '../component/Our Service/Swipe'
+import Counter from '../component/Project/Counter'
 
 const OurService = () => {
   return (
@@ -23,6 +24,7 @@ const OurService = () => {
       <ReachOut/>
       <Map/>
       <Footer/>
+      <Counter/>
       </div>
   )
 }
