@@ -23,7 +23,7 @@ const WhoWeAre = () => {
         }}
         >
             <div className='absolute bg-[rgba(11,11,11,0.80)] w-full h-full flex '>
-                <div className='flex flex-col justify-center mx-2 mt-5 ml-5 md:mt-20 md:ml-20 w-auto md:w-[600px]'>
+                <div className='flex flex-col justify-center mx-2 mt-5 ml-5 md:ml-20 w-auto md:w-[600px]'>
                 <h1 className='text-[#f15322] md:text-5xl text-2xl font-bold'
                 >
                     Who We Are?

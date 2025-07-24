@@ -5,6 +5,7 @@ import WhoWeAre from "../component/Home/WhoWeAre";
 import Trust from "../component/Home/Trust";
 import Services from "../component/Home/Services";
 import Bottom from "../component/Home/Bottom";
+import HomeFeature from "../component/Home/HomeFeature";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Herosec />
       <HeroSec2/>
       <WhoWeAre/>
+      <HomeFeature/>
       <div className="flex flex-col gap-20 lg:gap-30">
         <Trust />
         <Services />
