@@ -14,7 +14,7 @@ const Layout = () => {
       <div className="justify-between items-center hidden lg:flex">
         <ul className="flex space-x-12 text-xl font-semibold text-gray-800 ">
           <Link to="/"><li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>Home</div> <div><HiOutlineChevronDown/></div></li></Link>
-         <li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>About Us</div> <div><HiOutlineChevronDown/></div></li>
+          <Link to="/about-us"><li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>About Us</div> <div><HiOutlineChevronDown/></div></li></Link>
            <Link to="/our-service"><li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>Services</div> <div><HiOutlineChevronDown/></div></li></Link>
 
           <li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>Blog</div> <div><HiOutlineChevronDown/></div></li>
