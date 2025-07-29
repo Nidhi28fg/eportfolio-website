@@ -154,6 +154,18 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className="h-[225px] top-[3349.18px] flex flex-col items-center justify-center left-[88.15px] rounded-[30.67px] rotate-0 opacity-100 bg-[#FF1C3F24] mx-20 my-5 ">
+        <p className="w-[773.5628662109375px] top-[58.36px] left-[140.47px] rotate-0 opacity-100 font-alexandria font-normal text-[22.75px] leading-[100%] tracking-[0%]">
+         "With over 10 years of experience working closely with companies, colleges, and students, I’ve come to understand the unique needs of each stakeholder in the placement ecosystem,ensuring that we are building a robust and sustainable bridge between academic excellence and industry demands."
+        </p>
+        <div className="flex w-full justify-end px-20 pt-5">
+          <p className="font-alexandria font-bold text-[21.76px] leading-[100%] tracking-[0%]">
+            {" "}
+            <span className="text-[#E94D65]">— Nitesh Kumar Sharma</span>, Co-Founder and Director,
+            EpochFolio
+          </p>
+        </div>
+      </div>
 
       {/* contact us */}
       <div className="flex mx-20 my-10 justify-center items-center h-[600px] gap-40">
