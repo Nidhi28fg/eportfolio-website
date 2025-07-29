@@ -26,7 +26,7 @@ const About = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="flex-1 flex justify-center items-center h-full w-full bg-[#2104044f]">
+          <div className="flex-1 flex justify-center items-center h-full w-full bg-[#21040473]">
             <p className="font-alexandria text-white font-bold text-[24px] leading-[100%] tracking-[0%] text-center w-[464px] h-[257px] rotate-0 opacity-100 top-[64px] left-[45px]">
               <span className="text-bold text-[73px]">T</span>
               he EpochFolio, we are not just tackling the problem of poor
@@ -46,7 +46,7 @@ const About = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="flex-1 flex flex-col justify-center items-center h-full w-full bg-[#ffffff4f]">
+          <div className="flex-1 flex flex-col justify-center items-center h-full w-full bg-[#ffffff88]">
             <p className="font-alexandria text-[30px] font-bold leading-[100%] tracking-[0%] text-center">
               Driven by Purpose
             </p>
