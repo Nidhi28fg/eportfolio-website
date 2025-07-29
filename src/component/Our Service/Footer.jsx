@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
       {/* final border */}
-      <div className="w-full mt-5 md:mt-10 text-[8px] md:text-sm lg:text-md lg:p-10 lg:px-20  bg-[#e94d65] flex items-center gap-120 text-white">
+      <div className="w-full mt-5 md:mt-10 text-[8px] md:text-sm lg:text-md lg:p-10 lg:px-20  bg-[#ff494b] flex items-center gap-120 text-white">
         <span>Copyright by <span className="font-semibold">Epochfolio</span>. All rights reserved</span>
         <div className="flex gap-4 items-center">
           <a href="#">HOME</a>

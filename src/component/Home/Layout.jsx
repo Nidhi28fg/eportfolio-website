@@ -17,7 +17,7 @@ const Layout = () => {
           <Link to="/about-us"><li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>About Us</div> <div><HiOutlineChevronDown/></div></li></Link>
            <Link to="/our-service"><li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>Services</div> <div><HiOutlineChevronDown/></div></li></Link>
 
-          <li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>Blog</div> <div><HiOutlineChevronDown/></div></li>
+           <Link to="/blog"><li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]"><div>Blog</div> <div><HiOutlineChevronDown/></div></li></Link>
           <li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]">Contact Us</li>
         </ul>
       </div>

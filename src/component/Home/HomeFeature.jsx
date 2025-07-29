@@ -14,7 +14,6 @@ import { LuShoppingBag } from "react-icons/lu";
 import { TbPlugConnected } from "react-icons/tb";
 import { GoTrophy } from "react-icons/go";
 
-
 export default function HomeFeature() {
   // 1. Company features data
   const companyFeatures = [
@@ -43,28 +42,28 @@ export default function HomeFeature() {
   // 2. College features data
   const collegeFeatures = [
     {
-      icon: <BsFileEarmarkPost className="text-5xl text-white"/>,
+      icon: <BsFileEarmarkPost className="text-5xl text-white" />,
       title: "Curriculum Integration",
       subtitle:
         "Centralized platform for managing all placement activities, from applications to interviews.",
     },
     {
-      icon: <LuShoppingBag className="text-5xl text-white"/>,
+      icon: <LuShoppingBag className="text-5xl text-white" />,
       title: "Guaranteed Placements",
       subtitle: "Backed by MoUs and tracked results",
     },
     {
-      icon: <TbPlugConnected className="text-5xl text-white"/>,
+      icon: <TbPlugConnected className="text-5xl text-white" />,
       title: "Industry Connect",
       subtitle: "50+ live sessions, 12 hiring events/year, expert webinars",
     },
     {
-      icon: <GoTrophy className="text-5xl text-white"/>,
+      icon: <GoTrophy className="text-5xl text-white" />,
       title: "Visibility & Branding",
       subtitle: "National recognitions, TPO Awards, and joint showcases",
     },
     {
-     icon: <TbPlugConnected className="text-5xl text-white"/>,
+      icon: <TbPlugConnected className="text-5xl text-white" />,
       title: "Dedicated Success Manager",
       subtitle: "Because your students' future matters",
     },
@@ -82,8 +81,6 @@ export default function HomeFeature() {
 
   return (
     <div className="mx-auto px-12 py-12 space-y-24 font-sans text-gray-800">
-     
-
       <section>
         <h2 className="text-5xl font-bold mb-2">
           For <span className="text-[#FF484A]">Companies</span>
@@ -149,16 +146,15 @@ export default function HomeFeature() {
           {collegeFeatures.map(({ icon, title, subtitle }, idx) => (
             <div
               key={idx}
-              className="bg-white border-2 border-[#FF484A] shadow-2xl rounded-lg p-6 flex flex-col items-center justify-start text-center w-[350px] h-[400px]"
+              className="bg-white border-2 border-[#FF484A]  rounded-lg p-6 flex flex-col items-center justify-start text-center w-[350px] h-[400px]"
             >
               <div className="w-36 h-36 mb-4 rounded-full border-4 border-[#FF484A] flex items-center justify-center">
-            <div className="w-30 h-30 rounded-full border-3 border-[#ff725e] bg-[#ff725e]  flex items-center justify-center"
-            style={{
-        boxShadow: "0px 0px 18px 0px #ff725e",
-      }}
-            >
-            {icon}
-              </div>
+                <div
+                  className="w-30 h-30 rounded-full border-3 border-[#0f0f0f] bg-[#010101]  flex items-center justify-center"
+                  
+                >
+                  {icon}
+                </div>
               </div>
 
               <h4 className="font-bold my-3 text-[#FF484A] text-2xl">
