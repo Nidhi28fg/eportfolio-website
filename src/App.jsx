@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Aboutus from './Page/Aboutus';
 import Blog from './Page/Blog';
-// import ContactUs from './Page/ContactUs';
+import Solution from './Page/Solution';
 function App() {
 
   return (
@@ -17,7 +17,7 @@ function App() {
 <Route path="/our-service" element={<OurService />} />
 <Route path="/about-us" element={<Aboutus />} />
 <Route path="/blog" element={<Blog />} />
-{/* <Route path="/contact-us" element={<ContactUs />} /> */}
+<Route path="/solution" element={<Solution />} />
 
 </Routes>
     </BrowserRouter>
