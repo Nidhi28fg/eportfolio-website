@@ -48,8 +48,8 @@ const Layout = () => {
               value={valueselect}
             >
               <option value="/our-service" className="hidden ">Service</option>
-              <option value="/our-service" className="px-3 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Our Service</option>
-               <option value="/solution" className="px-3 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Solution</option>
+              <option value="/our-service" className="px-3 mx-2 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Our Service</option>
+               <option value="/solution" className="px-3  mx-2 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Solution</option>
               
             </select> <div>
                 <HiOutlineChevronDown />
