@@ -444,8 +444,14 @@ const Solution = () => {
             institution’s goals.
           </p>
           <div className=" flex gap-2 w-[786.66px] h-[99px]">
-            <input type="text" placeholder="Enter your email address" className="w-[644.55px] h-[52px] p-2 border-1 bg-white border-black" /> 
-            <button type="button" className="w-[133px] h-[52px] bg-[#E94D65]">Subscribe</button>
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              className="w-[644.55px] h-[52px] p-2 border-1 bg-white border-black"
+            />
+            <button type="button" className="w-[133px] h-[52px] bg-[#E94D65]">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>

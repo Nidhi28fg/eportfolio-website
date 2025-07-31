@@ -7,6 +7,8 @@ import { Routes, Route } from 'react-router-dom';
 import Aboutus from './Page/Aboutus';
 import Blog from './Page/Blog';
 import Solution from './Page/Solution';
+import Reference from './Page/Reference';
+import Contact from './Page/Contact';
 function App() {
 
   return (
@@ -18,6 +20,9 @@ function App() {
 <Route path="/about-us" element={<Aboutus />} />
 <Route path="/blog" element={<Blog />} />
 <Route path="/solution" element={<Solution />} />
+<Route path="/Reference" element={<Reference />} />
+<Route path="/contact" element={<Contact />} />"
+
 
 </Routes>
     </BrowserRouter>

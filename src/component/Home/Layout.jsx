@@ -50,7 +50,7 @@ const Layout = () => {
               <option value="/our-service" className="hidden ">Service</option>
               <option value="/our-service" className="px-3 mx-2 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Our Service</option>
                <option value="/solution" className="px-3  mx-2 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Solution</option>
-              
+                      <option value="/reference" className="px-3  mx-2 w-[100px] text-[16px] hover:bg-[#ff7e56] hover:[#ff7e56]">Reference</option>
             </select> <div>
                 <HiOutlineChevronDown />
               </div>
@@ -64,9 +64,11 @@ const Layout = () => {
               </div>
             </li>
           </Link>
+          <Link to="/contact">
           <li className="cursor-pointer flex items-center gap-2 hover:text-[#ff7e56]">
             Contact Us
           </li>
+          </Link>
         </ul>
       </div>
 
