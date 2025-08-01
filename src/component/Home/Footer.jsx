@@ -9,7 +9,7 @@ import facebook from '../../assets/facebook.png'
 import linkedin from '../../assets/linkedin.png'
 import instagram from '../../assets/instagram.png'
 import twitter from '../../assets/twitter.png'
-import arrowUp from '../../assets/arrowUp.png'
+import arrowUp from '../../assets/arrowup.png'
 
 const Footer = () => {
     return (
